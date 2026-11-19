@@ -1,0 +1,14 @@
+{
+  "dataset": "jbeno/sentiment_merged",
+  "text_column": "sentence",
+  "label_column": "label",
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "model": "LogisticRegression",
+  "vectorizer": "TfidfVectorizer",
+  "random_state": 42,
+  "test_accuracy": 0.6607963246554365
+}
